@@ -33,3 +33,6 @@ snapshot :; forge clean && forge snapshot
 
 # Rename all instances of femplate with the new repo name
 rename :; chmod +x ./scripts/* && ./scripts/rename.sh
+
+
+visor :; ./scripts/exploit_visor.sh ${ETH_MAINNET_NODE}
