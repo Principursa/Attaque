@@ -49,10 +49,14 @@ make build
 ```bash
 make test
 ```
+
+
 **Exploits**
 ```bash
 make visor 
 ```
+
+add Archive Node links to .env file then run command
 
 **Deployment & Verification**
 
